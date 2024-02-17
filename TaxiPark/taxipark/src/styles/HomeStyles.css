@@ -1,0 +1,639 @@
+.home {
+    /* border: 2px solid greenyellow; */
+    /* height: 90vh; */
+    height: 820px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-direction: column; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    position: relative;
+}
+
+.headerContainer {
+    /* border: 2px solid red; */
+    padding: 50px 0 0 !important;
+    /* width: auto; */
+    margin: 40px;
+    height: 470px;
+    width: 600px;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.home .headerContainer h1 {
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    /* font-family: 'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif; */
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+.home .headerContainer span {
+    color: gold;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+/* ------------------------------------texy----------------------- */
+.single-taxi {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taxi {
+    /* border: 2px solid green; */
+    height: 120px;
+    width: 150px;
+    /* background-color: gold; */
+}
+/* --------------------------------------- */
+.home .headerContainer .inp input {
+    /* border: 2px solid blue; */
+    /* width: 100%; */
+    font-size: 16px;
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 24px;
+    background: #fff;
+    padding: 12px 18px;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    background-clip: padding-box;
+}
+/* -------------------------------------- */
+.single-input {
+    /* border: 2px solid blue; */
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    /* border: 2px solid rgb(4, 230, 238); */
+    height: 60px;
+    width: 280px;
+}
+
+.btn1 {
+    color: black;
+    background-color: #ffc61a;
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 50px;
+    line-height: 1.4em;
+    border: 0px solid white
+}
+
+.btn1:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    color: gold;
+}
+
+/* -----mobile view------- */
+@media only screen and (max-width:600px) 
+{
+
+    .home {
+        justify-content: center;
+        align-items: center;
+    }
+    .headerContainer {
+        /* border: 2px solid green; */
+        padding: 24% !important;
+        border-radius: 10px;
+        height: 650px;
+        width:auto;
+        /* margin-top:50px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:white;
+        top: 0;
+    }
+    .home .headerContainer h1{
+        margin-top: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .single-taxi{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        align-items: cernter;
+        flex-wrap: wrap;
+        width: 320px;
+    }
+    .btn1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+    .single{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 700px;
+        margin: 20px;
+    }
+    .services .box{
+        /* border:2px solid green; */ 
+        border-right: none !important;
+    }
+   
+    .para{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .single-tariffs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;    
+    }
+    /* -------------DOWNLOAD THE APP---------------- */
+    
+    /* .h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } */
+
+    .allsingle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* .num .box-num{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } */
+    /* .nun{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    /* .download{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 900px;
+        border: 2px solid green;
+    } */
+   
+    
+    
+}
+
+/* ---------------------------------------------- */
+
+.services {
+    /* border: 2px solid gold; */
+    /* margin: 28px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.services .box {
+    /* border:2px solid blue; */
+    height: 500;
+    width: auto;
+    box-sizing: border-box;
+    border-right: 2px dotted black;
+    /* @media screen {
+        border-right: none;
+    } */
+    /* border: 2px solid red; */
+}
+
+.h3 {
+    color: gold;
+    text-align: center;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    /* padding: 12px; */
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+
+.services .box img {
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 2px;
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 18px;
+}
+
+.para {
+    margin: 0 0 50px;
+    font-size: 14px;
+    line-height: 1.6rem;
+    /* border: 2px dotted green; */
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    /* border: 2px solid yellow; */
+}
+
+.single {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    /* width: 100%; */
+    height: auto;
+}
+
+/* ------------------TARIFFS---------------- */
+.h-tariffs {
+    /* border: 2px solid greenyellow; */
+    /* justify-content: center; */
+    text-align: center;
+    color: gold;
+    background-color: #F5F5F5;
+}
+
+.h-primary-tariffs {
+    /* border: 2px dotted blue; */
+    text-align: center;
+    background-color: #F5F5F5;
+    font-size: 2.6rem;
+}
+
+.single-tariffs {
+    /* border: 2px solid red; */
+    position: relative;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* height: 600px; */
+    margin-bottom: 200px;
+}
+
+.tariffs .box {
+    /* border: 2px solid green; */
+    border-radius: 4px;
+    height: 371.969px;
+
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    width: 250px;
+    background: #ffffff;
+    position: relative;
+    margin: 30px;
+}
+
+.tariffs .box img {
+    /* border: 2px solid blue; */
+    margin: 20px;
+    /* display: block; */
+    height: 100px;
+    line-height: 170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+/* --------------DOWNLOAD THE APP--------------------------------  */
+/* ------------------------------------ */
+.download{
+    border: 2px solid red;
+    text-align: center;
+    height: 572px;
+    
+
+}
+.downloadthird{
+    border: 2px solid gold;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.download3{
+    border: 2px solid greenyellow;
+    height: 490px;
+    width: 500px;
+    margin: 3px;
+    
+}
+.number2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    padding: 10px;
+}
+.number{
+    /* border: 2px solid red; */
+    margin: 14px;
+    
+}
+.number h2{
+    border: 2px solid wheat;
+    border-radius: 50%;
+    color:black;
+    background-color: #ffc61a;
+    text-align:right;
+
+}
+.number h1{
+    color: #ffc61a;
+}
+.number p{
+    color: white;
+}
+/* .mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} */
+.mobile img{
+    border: 2px solid rgb(252, 4, 4);
+    /* height:auto; */
+    margin-bottom:88px;
+    padding-bottom: 90px;
+    
+}
+.googleply img{
+    border: 2px solid green;
+    height: 200px;
+    margin-top: -190px;
+}
+/* ------------------------------------ */
+/* .download {
+    border: 2px solid greenyellow;
+    text-align: center;
+    height: 572px;
+} */
+
+.num {
+    /* border: 2px solid gold; */
+    margin: 30px;
+    padding: 10px;
+}
+
+.num .box-num {
+    border: 2px solid blueviolet;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+    width: 155px;
+}
+.single-num {
+    border: 2px solid red;
+    /* margin: 2px; */
+    height: 500px;
+    /* height: auto; */
+    /* width: 450px; */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.allsingle {
+    border: 4px solid rgb(5, 230, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    /* margin: 10px; */
+}
+.h-num {
+    border: 2px solid blue;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: black;
+    background-color: yellow;
+}
+.h-header {
+    color: gold;
+    font-size: 18px;
+}
+
+.p {
+    color: white;
+}
+
+/* --------------FOR DRIVERS------------------------------ */
+
+.header {
+    /* border:2px solid red; */
+    height: 400px;
+    margin: 30px;
+}
+
+.header .header-h4 {
+    color: gold;
+}
+
+/* -----------------FOR DRIVERS---------------------- */
+
+.check {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.check .box-check {
+    /* border:2px solid blue; */
+    height: 150px;
+    width: 132px
+}
+
+.single-check {
+    /* border: 2px solid gold; */
+    display: flex;
+    align-items: left;
+}
+
+.btn2 {
+    color: black;
+    background-color: #ffc61a;
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 17px 60px;
+    line-height: 1.4em;
+    margin: 25px;
+
+}
+/* ----------------hr---------- */
+.hr{
+    border: 2px solid red;
+    height: 20px;
+    width: 100%;
+    display: block;
+    background-image: url();
+}
+/* -----------------TESTIMONIALS-------------------- */
+.test{
+    border: 2px solid red;
+    height: 400px;
+    width:auto;
+    margin: 10px;
+}
+/* ----------------2pick--------------- */
+.banner{
+    border: 2px solid red;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    width: 100%;
+}
+
+/* --------------------eco----------------------- */
+.eco1
+{
+    border: 2px solid blue;
+    margin: 0 4px;
+    height: 150px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #ffc61a;
+    justify-content: space-around;
+}
+.eco-box{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.eco-box img{
+    margin: 20px;
+    height: 80px;
+    line-height: 170px;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------Aboutus------------------   */
+.about1{
+    /* border: 2px solid red; */
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin: 4px;
+}
+.about1 .about-box{
+    /* border: 2px solid blue; */
+    margin: 4px;
+    height: 200px;
+    color: #cccccc;
+
+}
+.drop{
+    /* border: 2px solid red; */
+    line-height: 1.7em;
+    font-size: 14px;
+    
+   
+
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.drop .dropbt{
+    /* border: 2px solid orchid; */
+    border-bottom: 4px dotted black;
+    margin: 2px;
+    size: 2px;
+    width: 200px;
+    background-color:  #161616;
+    color: white;
+    /* border: none; */
+    
+}
+.drop .dropbt:hover{
+    color: #ffc61a;
+}
+/* ----------------------Like-themes ----------  */
+.like{
+    border: 2px solid blue;
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: left;
+    /* background: #0C0C0C; */
+    color: #868686;
+    text-align: left;
+    padding: 37px 0 27px;
+    overflow: hidden;
+    margin: 4px;
+
+}

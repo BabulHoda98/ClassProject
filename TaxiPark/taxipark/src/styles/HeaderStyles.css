@@ -1,0 +1,99 @@
+.navigation-menu {
+    /* border: 2px solid red; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    /* opacity: 0.5; */
+    border-bottom: 2px solid gold;
+    
+}
+
+.navigation-menu li {
+    /* border: 2px solid gray; */
+    margin: 20px 20px;
+    border-radius: 8%;
+}
+/* ------------------hover---------------------- */
+.navigation-menu li a {
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: goldenrod !important;
+    font-weight: bold !important;
+}
+.navigation-menu li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+/* ------------------------------------------------------- */
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+    background-color: rgb(218, 206, 206);
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    padding: 18px 16px;
+    /* text-decoration: none; */
+    display: block;
+  
+    
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover{
+    background-color:aqua;
+  } 
+  
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown-content .NavLink{
+    background-color: #3e8e41;
+  } */
+/* ------------------------------------------------------ */
+/* Mobile view */
+.mobile-navigation {
+    border: 2px solid red;
+    list-style: none;
+    background: gold;
+    /* background:red; */
+    height: auto;
+    width: 100%;
+}
+
+.mobile-navigation li {
+    margin-top: 20px;
+    /* background-color: yellow; */
+
+}
+
+.mobile-navigation li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+    /* background-color:gray */
+}
+
+.btn {
+    background-color: yellow;
+}
